@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "천지인 키보드의 Middle Dot과 관련된 이슈"
-date:   2020-06-21 23:44:00 +0900
+date:   2020-06-22 00:48:00 +0900
 categories: issue
 tags: [모바일, 가상키보드, 천지인, 정규식, 이슈]
 ---
