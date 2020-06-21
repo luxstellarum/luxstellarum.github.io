@@ -139,3 +139,20 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 .highlight .vg { color: var(--code-color-7); } /* Name.Variable.Global */
 .highlight .vi { color: var(--code-color-7); } /* Name.Variable.Instance */
 .highlight .il { color: var(--code-color-14); } /* Literal.Number.Integer.Long */
+
+.post_tag_area {
+  margin-top: 20px;
+  
+  .tag_badge {
+    background-color: var(--code-color-1);
+    color: var(--background-color);
+    padding: 4px 10px;
+    border-radius: 5px 5px;
+    margin-right: 10px;
+
+    &:hover {
+      background-color: var(--background-color);
+      color: var(--code-color-1);
+    }
+  }
+}

@@ -3,3 +3,14 @@ layout: default
 ---
 
 {{ content }}
+
+{%- assign post = page -%}
+{%- if post.tags.size > 0 -%}
+<div class="post_tag_area">
+  {%- for post_tag in post.tags -%}
+      <a href="/tags/#{{post_tag}}" class="tag_badge">#{{post_tag}}</a>
+  {%- endfor -%}
+</div>
+{%- else -%}
+  {%- assign tags_content = '' -%}
+{%- endif -%}
