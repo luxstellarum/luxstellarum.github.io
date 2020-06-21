@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<h1 class="post_title"># {{ page.title }}</h1>
 {{ content }}
 
 {%- assign post = page -%}
@@ -12,5 +12,4 @@ layout: default
   {%- endfor -%}
 </div>
 {%- else -%}
-  {%- assign tags_content = '' -%}
 {%- endif -%}

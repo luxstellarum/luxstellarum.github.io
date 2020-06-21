@@ -156,3 +156,10 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
     }
   }
 }
+
+.post_title {
+  color: var(--title-color);
+  font-size: 18px;
+  margin-bottom: 20px; 
+  font-weight: normal;
+}
