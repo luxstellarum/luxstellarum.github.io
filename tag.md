@@ -5,7 +5,7 @@ permalink: /tags/
 ---
 {%- for tag in site.tags -%}
   {%- assign tagName = tag | first-%}
-  <h2>#{{tagName}}</h2>
+  <h1>{{tagName}}</h1>
 
   {%- assign relativePosts = tag | last-%}
   <ul>
