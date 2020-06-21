@@ -22,15 +22,16 @@
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-paginate-v2
+  - jekyll-paginate
 
 # Paginate config
-pagination:
-  enabled: true
-  per_page: 4
-  trail: 
-    before: 2
-    after: 2
+# pagination:
+#   enabled: true
+#   per_page: 4
+#   trail: 
+#     before: 2
+#     after: 2
+paginate: 10
 
 header_pages:
   - index.md
