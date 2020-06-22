@@ -170,3 +170,31 @@ pre.highlight {
   margin: 10px 0;
   padding : 5px 10px;
 }
+
+blockquote {
+  margin: 10px;
+  padding-left: 10px;
+  border-left: 5px solid rgb(111, 125, 145);
+  * {
+    color: var(--blockqoute-color);
+  }
+}
+
+del {
+  color: var(--code-color-10);
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+code {
+  font-family: $base-font-family;
+
+  &.language-plaintext {
+    padding: 2px 4px;
+    margin: 0 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-plaintext-color);
+  }
+}
